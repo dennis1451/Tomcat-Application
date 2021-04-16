@@ -2,6 +2,7 @@
 <head><title>First JSP</title></head>
 <body>
   <!-- This is the first change -->
+  <!-- This is the second change -->
   <%
     double num = Math.random();
     if (num > 0.95) {
