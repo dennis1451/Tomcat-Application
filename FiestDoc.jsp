@@ -1,6 +1,7 @@
 <html>
 <head><title>First JSP</title></head>
 <body>
+  <!-- This is the first change -->
   <%
     double num = Math.random();
     if (num > 0.95) {
@@ -10,6 +11,7 @@
     } else {
   %>
       <h2>Well, life goes on ... </h2><p>(<%= num %>)</p>
+      
   <%
     }
   %>
